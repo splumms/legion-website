@@ -1,0 +1,24 @@
+[
+  {
+    "name": "blog-blog",
+    "path": "/blog/:blog?",
+    "component": "/Users/splummer/Documents/projects/legion-website/pages/blog/_blog.vue",
+    "chunkName": "pages/blog/_blog",
+    "_name": "_e62ac448"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/splummer/Documents/projects/legion-website/pages/index.vue",
+    "chunkName": "pages/index",
+    "url": "/",
+    "_name": "_21d622fa"
+  },
+  {
+    "name": "page",
+    "path": "/:page",
+    "component": "/Users/splummer/Documents/projects/legion-website/pages/_page.vue",
+    "chunkName": "pages/_page",
+    "_name": "_ead130d4"
+  }
+]
