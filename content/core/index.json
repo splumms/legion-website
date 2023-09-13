@@ -1,47 +1,29 @@
 {
   "seo": {
-    "title": "AU Nuxt Static Boilerplate",
+    "title": "Wolfville Legion - Branch 74",
     "description": ""
   },
   "og": {
-    "title": "AU Nuxt Static Boilerplate",
-    "url": "https://au-nuxt-static.on.fleek.co",
+    "title": "Wolfville Legion - Home",
+    "url": "",
     "type": "website",
     "image": "/images/open-graph.png"
   },
   "page_content": {
-    "section_text_center": {
-      "grid": [
-        "middle",
-        "center",
-        "noGutter"
-      ],
-      "col_1": {
-        "type": "text_block",
-        "align": "center",
-        "cols": {
-          "num": "col-12",
-          "push_left": "off-1_md-0",
-          "push_right": "off-1_md-0"
-        },
-        "heading": "Welcome to AU's Nuxt Static Boilerplate"
-      },
-      "hide": false
-    },
     "section_basic_section_1": {
       "grid": [
         "middle",
         "center"
       ],
       "col_1": {
-        "label": "Documentation",
-        "heading": "Storybook",
-        "description": "Storybook automatically deploys to [https://agency-undone.github.io/nuxt-static](https://agency-undone.github.io/nuxt-static) using Github pages when committing to develop",
+        "label": "",
+        "heading": "Supporting those who served and continue to serve.",
+        "description": "Dr. C.B Lumsden, Branch 74",
         "ctas": [
           {
             "type": "solid",
-            "text": "Storybook",
-            "url": "https://agency-undone.github.io/nuxt-static"
+            "text": "Donate",
+            "url": "/"
           }
         ],
         "type": "text_block",
@@ -52,7 +34,7 @@
         }
       },
       "col_2": {
-        "src": "/images/open-graph.png",
+        "src": "/images/lighthouse.jpg",
         "type": "image_block",
         "cols": {
           "num": "col-5_md-12_lg-last_md-first",
@@ -67,52 +49,53 @@
         "center"
       ],
       "col_1": {
-        "heading": "Index Page",
-        "description": "Index page is being pulled from <code>/content/core/index.json</code>",
+        "heading": "Our mandate is to ensure that Canadians never forget the sacrifices made by the men and women who have served their country in times of war and peace and to care for the veterans and their families",
+        "description": "",
+        "ctas": [],
+        "type": "text_block",
+        "cols": {
+          "num": "col-10_md-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_3": {
+      "grid": [
+        "middle",
+        "center"
+      ],
+      "col_1": {
+        "src": "/images/poppy.png",
+        "type": "image_block",
+        "cols": {
+          "num": "col-5_md-12",
+          "push_left": "",
+          "push_right": "off-1"
+        }
+      },
+      "col_2": {
+        "label": "",
+        "description": "We are fast becoming the place where people choose to come to beat the stigma of being alone, to attend Acts of Remembrance, enjoy events such as live musical entertainment, cards, darts, coffee and tea socials, weekly suppers, a monthly breakfast, and to lend an ear to many in need.",
+        "list": {
+          "heading": "We provide:",
+          "items": [
+            "Financial Assistance",
+            "Counselling and Medical Equipment",
+            "Bursaries to graduating high school students",
+            "A sense of community"
+          ]
+        },
         "ctas": [
           {
             "type": "solid",
-            "text": "Home",
+            "text": "Join Us",
             "url": "/"
           }
         ],
         "type": "text_block",
         "cols": {
-          "num": "col-4_md-12",
-          "push_left": "",
-          "push_right": ""
-        }
-      },
-      "col_2": {
-        "heading": "Blog Template",
-        "description": "Blog posts are auto generated when md file is added to <code>/content/blog</code>. Url is under <code>/blog/[slug]</code>",
-        "ctas": [
-          {
-            "type": "solid",
-            "text": "Hello World",
-            "url": "/blog/hello-world"
-          }
-        ],
-        "type": "text_block",
-        "cols": {
-          "num": "col-4_md-12",
-          "push_left": "",
-          "push_right": ""
-        }
-      },
-      "col_3": {
-        "heading": "Page Template",
-        "description": "Pages are auto generated when json file is added to <code>/content/page</code>`. Only top level tier support at the moment",
-        "ctas": [
-          {
-            "type": "solid",
-            "text": "About",
-            "url": "/about"
-          }
-        ],
-        "type": "text_block",
-        "cols": {
-          "num": "col-4_md-12",
+          "num": "col-6_md-12",
           "push_left": "",
           "push_right": ""
         }

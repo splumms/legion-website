@@ -15,6 +15,19 @@
       </div>
     </div>
 
+    <div class="list-wrapepr">
+      <div v-if="block.list" class="list">
+        <h5 v-html="block.list.heading"></h5>
+        <ul>
+          <li 
+            v-for="(item, index) in block.list.items"
+            :key="index"
+            v-html="item">
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <div v-if="block.ctas" class="button-row">
       <div v-if="block.ctas && Array.isArray(block.ctas)">
         <Button v-for="(cta, index) in ctaData" :key="index" :button="cta" />
