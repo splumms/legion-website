@@ -25,7 +25,7 @@ $letterSpacing_Large: 0.03em;
 @mixin fontSize_Medium { font-size: 1.5rem; } // fontSize_Medium | 24px
 @mixin fontSize_Large { font-size: 1.875rem; } // fontSize_Large | 30px
 @mixin fontSize_ExtraLarge { font-size: 2.8125rem; } // fontSize_ExtraLarge | 45px
-@mixin fontSize_Huge { font-size: 4.0625rem; } // fontSize_Huge | 65px
+@mixin fontSize_Huge { font-size: 3.5rem; } // fontSize_Huge | 65px
 
 
 // ---------------------------------------------------- Typography | Font Weight
@@ -39,29 +39,30 @@ $letterSpacing_Large: 0.03em;
 @mixin h1 {
   @include fontSize_Huge; // 65px
   @include fontWeight_Regular; // 400
-  font-family: $font_Secondary;
+  font-family: $font_Primary;
   line-height: leading(85, 65);
 }
 
 @mixin h2 {
   @include fontSize_ExtraLarge; // 45px
   @include fontWeight_Regular; // 400
-  font-family: $font_Secondary;
+  font-family: $font_Primary;
   line-height: leading(60, 45);
 }
 
 @mixin h3 {
   @include fontSize_Large; // 30px
   @include fontWeight_Regular; // 400
-  font-family: $font_Secondary;
+  font-family: $font_Primary;
   line-height: leading(42, 30);
 }
 
 @mixin h4 {
   @include fontSize_Medium; // 24px
   @include fontWeight_Regular; // 400
-  font-family: $font_Secondary;
+  font-family: $font_Primary;
   line-height: leading(36, 24);
+  font-weight: bold;
 }
 
 @mixin h5 {
@@ -89,7 +90,7 @@ $letterSpacing_Large: 0.03em;
   @include fontSize_Regular; // 18px
   @include fontWeight_Regular; // 400
   font-family: $font_Primary;
-  line-height: leading(30, 18);
+  line-height: leading(34, 18);
 }
 
 @mixin p1Link{

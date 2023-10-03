@@ -3,14 +3,14 @@
 
     <div
       v-for="section in sections"
-      :key="section.id">
+      :key="section.id"
+      :class="section.background">
 
       <section v-if="!section.hide" :id="section.slug" :class="['sectional', section.id]">
         <!-- ============================================ [Section] Off Grid -->
         <div
           v-if="section.off_grid"
-          :id="`${section.id}-background`"
-          class="section-background">
+          :id="`${section.id}-background`">
 
           <template v-for="(component, i) in section.off_grid">
             <component
@@ -32,7 +32,6 @@
               :data-push-left="getColumnPushCount(block, 'left')"
               :data-push-right="getColumnPushCount(block, 'right')">
               <div class="column-content">
-
                 <!-- ======================================== [Block] Custom -->
                 <template v-if="block.type === 'custom'">
                   <component
@@ -64,6 +63,7 @@
 </template>
 
 <script>
+import CardBlock from '@/components/blocks/card-block'
 import TextBlock from '@/components/blocks/text-block'
 import ImageBlock from '@/components/blocks/image-block'
 import MarkdownBlock from '@/components/blocks/markdown-block'
@@ -73,6 +73,7 @@ export default {
   name: 'BlockBuilder',
 
   components: {
+    CardBlock,
     TextBlock,
     ImageBlock,
     BlockBuilder,
@@ -107,6 +108,7 @@ export default {
       const type = block.type
       let name = ''
       switch (type) {
+        case 'card_block' : name = 'CardBlock'; break
         case 'text_block' : name = 'TextBlock'; break
         case 'image_block' : name = 'ImageBlock'; break
         case 'markdown_block': name = 'MarkdownBlock'; break
@@ -117,3 +119,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.blue {
+  background-color: #407C9D;
+}
+</style>
+

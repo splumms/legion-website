@@ -56,7 +56,7 @@ export default {
 
 .type__solid {
   transition: background-color $duration ease;
-  background-color: $color_Primary;
+  background-color: $color_Accent;
   padding: 0 toRem(15);
   color: white;
   border-radius: $borderRadius_Medium;

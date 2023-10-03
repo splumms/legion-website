@@ -1,0 +1,63 @@
+<template>
+  <div
+    class="block card-block">
+
+    <div v-if="block.icon" class="icon">
+      <img :src="block.icon" :alt="block.alt">
+    </div>
+
+    <h4 v-if="block.heading" class="heading" v-html="block.heading"></h4>
+
+    <div class="text-wrapper">
+      <div v-if="block.description" class="description">
+        <MarkdownParser :markdown="block.description" />
+      </div>
+      <div class="where" v-html="block.where"></div>
+      <div class="when" v-html="block.when"></div>
+    </div>
+
+  </div>
+</template>
+
+<script>
+import MarkdownParser from '@/components/markdown-parser'
+
+export default {
+  name: 'CardBlock',
+
+  components: {
+    MarkdownParser
+  },
+
+  props: {
+    block: {
+      /**
+       * align: String (left, right, center)
+       * label: String
+       * heading: String
+       * description: String
+       * ctas: [{Button}]
+       */
+      type: Object,
+      required: true
+    }
+  },
+
+  computed: {
+    
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.card-block {
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+  padding: 2rem 3.25rem;
+  height: 100%;
+}
+.heading {
+  padding-bottom: 1rem;
+}
+</style>

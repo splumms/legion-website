@@ -26,23 +26,16 @@
     ]
   },
   "footer": {
-    "copyright": "Made with ❤️ by AU",
-    "social": [
+    "ctas": [
       {
-        "id": "facebook",
-        "url": "https://www.facebook.com/"
+        "type": "solid",
+        "text": "Next Executive Meeting",
+        "url": "/"
       },
       {
-        "id": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "id": "linkedin",
-        "url": "https://www.linkedin.com/company/"
-      },
-      {
-        "id": "youtube",
-        "url": "https://www.youtube.com/user/"
+        "type": "solid",
+        "text": "Next General Meeting",
+        "url": "/"
       }
     ]
   },

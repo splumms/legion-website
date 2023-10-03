@@ -1,13 +1,13 @@
 <template>
   <div
-    :class="['block text-block', `align__${block.align ? block.align : 'left'}`]">
+    :class="['block text-block', `align__${block.align ? block.align : 'left'}`, `${block.class ? block.class : null}`]">
 
     <h5 v-if="block.label" class="label">
       <TriangleArrow v-if="block.showLabelIcon" class="icon" />
       <span>{{ block.label }}</span>
     </h5>
 
-    <h2 v-if="block.heading" class="heading" v-html="block.heading"></h2>
+    <h1 v-if="block.heading" class="heading" v-html="block.heading"></h1>
 
     <div class="text-wrapper">
       <div v-if="block.description" class="description">
@@ -17,7 +17,7 @@
 
     <div class="list-wrapepr">
       <div v-if="block.list" class="list">
-        <h5 v-html="block.list.heading"></h5>
+        <h4 v-html="block.list.heading"></h4>
         <ul>
           <li 
             v-for="(item, index) in block.list.items"
@@ -89,12 +89,23 @@ export default {
       justify-content: flex-end;
     }
   }
+  &.quote {
+    color: white;
+    h1 {
+      @include fontSize_ExtraLarge;
+      font-family: $font_Secondary;
+    }
+  }
   > * {
     margin-bottom: toRem(30);
     position: relative;
   }
 }
-
+.list {
+  h4 {
+    padding: 1.5rem 0 1rem 0;
+  }
+}
 .button-row {
   margin-bottom: 0;
   .button:first-child {

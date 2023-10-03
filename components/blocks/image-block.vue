@@ -2,6 +2,7 @@
   <div class="block image-block">
 
     <img
+      :class="block.class"
       :src="block.src"
       :alt="block.alt ? block.alt : $GetPrettyNameFromUrl(block.src)" />
 

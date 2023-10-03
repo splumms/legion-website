@@ -1,12 +1,22 @@
 <template>
   <footer class="site-footer">
     <div class="grid-center">
-      <p>{{ footerData.copyright }}</p>
-    </div>
-    <div class="grid-center site-footer-social">
-      <a v-for="(icon, index) in footerData.social" :key="index" target="_blank" :href="icon.url">
-        <component :is="getButtonIcon(icon.id)" />
-      </a>
+      <div class="col-4 contact">
+        <a href="">Tel: 902-542-5869</a>
+        <a href="">wolfvillelegion@gmail.com</a>
+        <a href="">Facebook</a>
+        <a class="address" href="">310 Main St, <br>Wolfville, NS B4P 1C4</a>
+      </div>
+      <div class="col-4 footer-nav">
+        <a href="">Rentals</a>
+        <a href="">By-laws</a>
+        <a href="">Newsletter</a>
+      </div>
+      <div class="col-4 ctas">
+        <Button v-for="(cta, index) in footerData.ctas"
+          :key="index"
+          :button="cta" />
+      </div>
     </div>
   </footer>
 </template>
@@ -82,13 +92,27 @@ export default {
   position: relative;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: $color_Primary;
+  background-color: #9F5353;
   color: white;
   z-index: 5;
-}
-.site-footer-social {
   a {
-    margin: 0 toRem(10);
+    color: white;
+  }
+}
+.contact, .ctas, .footer-nav {
+  display: flex;
+  flex-direction: column;
+  .address {
+    padding-top: 1.5rem;
+    justify-content: flex-end;
+  }
+  .button {
+    margin-bottom: 2rem;
+  }
+}
+.footer-nav {
+  a {
+    padding-bottom: 1rem;
   }
 }
 </style>
