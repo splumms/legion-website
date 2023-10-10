@@ -113,7 +113,12 @@ export default {
 <style lang="scss" scoped>
 .site-header {
   z-index: 10;
-  padding: toRem(30) 0;
+  padding: toRem(30) 4rem;
+  position: absolute;
+  top: 0;
+  @include medium {
+    padding: toRem(30) 2rem;
+  }
   .scroll-banner {
     background-color: $color_Secondary;
   }
@@ -139,8 +144,9 @@ export default {
       display: block;
     }
     .join-cta {
-      position: relative;
-      // right: -40rem;
+      position: absolute;
+      right: 2rem;
+      z-index: 13;
     }
   }
 
@@ -154,7 +160,7 @@ export default {
         color: #0F4E71;
         transform: scale (1.2);
         &:after {
-          transform: scaleX(-1);
+          transform: rotate(180deg);
         }
       }
     }
@@ -166,15 +172,15 @@ export default {
     &:after {
       content: "";
       display: block;
-      background-image: url("static/arrow.jpg");
-      background-repeat: no-repeat;
-      height: 0.75rem;
-      width: 0.75rem;
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid black;
       position: absolute;
       right: -1.25rem;
-      top: 0;
-      transform: rotate(135deg);
-      transition: ease all 0.25s;
+      top: 0.5rem;
+      transition: ease all 0.35s;
     }
   }
 

@@ -1,18 +1,18 @@
 <template>
   <footer class="site-footer">
     <div class="grid-center">
-      <div class="col-4 contact">
+      <div class="col-4_sm-6_mi-12 contact">
         <a href="">Tel: 902-542-5869</a>
         <a href="">wolfvillelegion@gmail.com</a>
         <a href="">Facebook</a>
         <a class="address" href="">310 Main St, <br>Wolfville, NS B4P 1C4</a>
       </div>
-      <div class="col-4 footer-nav">
+      <div class="col-4_sm-6_mi-12 footer-nav">
         <a href="">Rentals</a>
         <a href="">By-laws</a>
         <a href="">Newsletter</a>
       </div>
-      <div class="col-4 ctas">
+      <div class="col-4_sm-12 ctas">
         <Button v-for="(cta, index) in footerData.ctas"
           :key="index"
           :button="cta" />
@@ -92,7 +92,7 @@ export default {
   position: relative;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #9F5353;
+  background-color: #8D3434;
   color: white;
   z-index: 5;
   a {
@@ -113,6 +113,11 @@ export default {
 .footer-nav {
   a {
     padding-bottom: 1rem;
+  }
+}
+.ctas {
+  .button {
+    background-color: $color_Accent;
   }
 }
 </style>
