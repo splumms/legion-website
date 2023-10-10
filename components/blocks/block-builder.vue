@@ -123,6 +123,7 @@ export default {
 <style lang="scss" scoped>
 .blue {
   background-color: #407C9D;
+  color: white;
 }
 </style>
 

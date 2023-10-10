@@ -290,20 +290,26 @@ table {
     .hero-image {
       position: relative;
       right: 0;
-      width: 130%;
+      min-width: 55rem;
       transform: scale(1.1);
+      @include small {
+        right: unset;
+        width: 100%;
+        min-width: unset;
+        transform: none;
+      }
     }
-    .button-row {
-      position: relative;
-      bottom: -3.125rem;
+    .text-block {
+      padding-top: 8rem;
+      h1 {
+        font-size: 3rem;
+      }
     }
     .type__solid {
       padding: 0.75rem 2.5rem;
       border-radius: 0;
     }
     .button {
-      position: absolute;
-      right: -5.875rem;
       .text {
         font-size: 2rem;
       }

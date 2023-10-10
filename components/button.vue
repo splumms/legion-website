@@ -56,13 +56,13 @@ export default {
 
 .type__solid {
   transition: background-color $duration ease;
-  background-color: $color_Accent;
+  background-color: #8D3434;
   padding: 0 toRem(15);
   color: white;
   border-radius: $borderRadius_Medium;
   &:hover {
     transition: background-color $duration ease;
-    background-color: $color_Secondary;
+    background-color: $color_Accent;
   }
   &[disabled] {
     background-color: gray;

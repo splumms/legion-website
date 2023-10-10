@@ -100,6 +100,9 @@ export default {
     margin-bottom: toRem(30);
     position: relative;
   }
+  .label {
+    font-weight: bold;
+  }
 }
 .list {
   h4 {

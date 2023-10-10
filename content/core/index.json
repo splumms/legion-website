@@ -29,7 +29,7 @@
         ],
         "type": "text_block",
         "cols": {
-          "num": "col-6_md-12",
+          "num": "col-6_sm-12",
           "push_left": "",
           "push_right": ""
         }
@@ -39,8 +39,8 @@
         "src": "/images/lighthouse.jpg",
         "type": "image_block",
         "cols": {
-          "num": "col-5_md-12_lg-last_md-first",
-          "push_left": "off-1",
+          "num": "col-5_sm-12_mi-hidden_lg-last",
+          "push_left": "off-1_sm-0",
           "push_right": ""
         }
       }
@@ -75,7 +75,7 @@
         "src": "/images/poppy.png",
         "type": "image_block",
         "cols": {
-          "num": "col-5_md-12",
+          "num": "col-5_sm-hidden",
           "push_left": "",
           "push_right": "off-1"
         }
@@ -101,9 +101,9 @@
         ],
         "type": "text_block",
         "cols": {
-          "num": "col-5_md-12",
+          "num": "col-5_sm-10_mi-12",
           "push_left": "",
-          "push_right": "off-1"
+          "push_right": "off-1_sm-0"
         }
       }
     },
@@ -115,6 +115,15 @@
         "equalHeight"
       ],
       "col_1": {
+        "label": "Upcoming Events",
+        "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_2": {
         "heading": "Coffee Break",
         "description": "Bottomless cup of coffee or tea, sweet treats and a warm welcome.",
         "where": "<strong>Where:</strong> White Rock Hall",
@@ -126,7 +135,7 @@
           "push_right": ""
         }
       },
-      "col_2": {
+      "col_3": {
         "heading": "Karaoke",
         "description": "You sing in the shower, You sing in the car.  Sing with us and become a STAR!",
         "where": "<strong>Where:</strong> White Rock Hall",
