@@ -3,7 +3,7 @@
     <div class="scroll-banner">
 
     </div>
-    <div class="grid">
+    <div class="grid full">
       <div class="col-8">
         <nav>
           <NuxtLink to="/" class="logo">
@@ -11,7 +11,7 @@
           </NuxtLink>
 
           <div class="dropdown">
-            <NuxtLink to="/" class="dropbtn">
+            <NuxtLink to="/about" class="dropbtn">
               About
             </NuxtLink>
             <div class="dropdown-content">
@@ -33,7 +33,7 @@
           </div>
 
           <div class="dropdown">
-            <NuxtLink to="/" class="dropbtn">
+            <NuxtLink to="/fundraising" class="dropbtn">
               Fundraising
             </NuxtLink>
             <div class="dropdown-content">
@@ -44,7 +44,7 @@
           </div>
 
           <div class="dropdown">
-            <NuxtLink to="/" class="dropbtn">
+            <NuxtLink to="/contact" class="dropbtn">
               Contact
             </NuxtLink>
             <div class="dropdown-content">
@@ -58,7 +58,7 @@
       </div>
       <div class="col-4">
         <div class="join-cta">
-          <NuxtLink to="/" class="">
+          <NuxtLink to="/join" class="">
             Join
           </NuxtLink>
         </div>
@@ -113,11 +113,9 @@ export default {
 <style lang="scss" scoped>
 .site-header {
   z-index: 10;
-  padding: toRem(30) 4rem;
-  position: absolute;
-  top: 0;
+  padding: 1rem 4rem 0;
   @include medium {
-    padding: toRem(30) 2rem;
+    padding: 1rem 2rem 0;
   }
   .scroll-banner {
     background-color: $color_Secondary;
