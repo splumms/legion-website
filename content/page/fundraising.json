@@ -1,0 +1,102 @@
+{
+  "seo": {
+    "title": "Wolfville Legion - Join",
+    "description": ""
+  },
+  "og": {
+    "title": "Wolfville Legion - Join",
+    "url": "",
+    "type": "website",
+    "image": "/images/open-graph.png"
+  },
+  "page_content": {
+    "section_basic_section_1": {
+      "id": "hero",
+      "grid": [
+        "middle",
+        "center"
+      ],
+      "classNames": ["hero", "hero-poppy", "full"],
+      "col_1": {
+        "label": "GIVE GENEROUSLY AND GIVE OFTEN",
+        "heading": "Fundraising",
+        "description": "Please donate and together we can continue remembering the fallen and to care for veterans and their families at our branch.",
+        "ctas": [
+          {
+            "type": "solid",
+            "text": "Donate Online",
+            "url": "/"
+          }
+        ],
+        "type": "text_block",
+        "cols": {
+          "num": "col-5_sm-12",
+          "push_left": "off-1",
+          "push_right": ""
+        }
+      },
+      "col_2": {
+        "class": "hero-image",
+        "src": "/images/poppy-flower.svg", 
+        "type": "image_block",
+        "cols": {
+          "num": "col-6_sm-hidden",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_2": {
+      "grid": [
+        "middle"
+      ],
+      "col_1": {
+        "label": "Why Join?",
+        "description": "",
+        "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_2": {
+        "label": "Who Can Join?",
+        "description": "",
+        "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_3": {
+        "label": "How to Join",
+        "description": "",
+        "type": "text_block",
+        "cols": {
+          "num": "col-12_sm-10",
+          "push_left": "",
+          "push_right": "off-0_sm-2"
+        }
+      },
+      "col_4": {
+        "label": "Membership Forms and Manual",
+        "description": "",
+        "list": {
+          "items": [
+            "Verteran's First Year Free Membership Form",
+            "Membership Form",
+            "Membership Manual"
+          ]
+        },
+        "type": "text_block",
+        "cols": {
+          "num": "col-12_sm-10",
+          "push_left": "",
+          "push_right": "off-0_sm-2"
+        }
+      }
+    }
+  }
+}
