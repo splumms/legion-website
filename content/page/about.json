@@ -1,31 +1,231 @@
 {
   "seo": {
-    "title": "AU Nuxt Static Boilerplate",
+    "title": "Wolfville Legion - About",
     "description": ""
   },
   "og": {
-    "title": "AU Nuxt Static Boilerplate",
-    "url": "https://au-nuxt-static.on.fleek.co",
+    "title": "Wolfville Legion - About",
+    "url": "",
     "type": "website",
     "image": "/images/open-graph.png"
   },
   "page_content": {
-    "section_text_center": {
+    "section_basic_section_1": {
       "grid": [
         "middle",
-        "center",
-        "noGutter"
+        "center"
       ],
+      "classNames": ["hero", "blue", "full"],
       "col_1": {
-        "type": "markdown_block",
+        "label": "Dr. C.B. Lumsden, Branch No. 74",
+        "heading": "About Us",
+        "description": "Remember Them <br> For we owe them a debt which cannot be repaid",
+        "ctas": [],
+        "type": "text_block",
+        "align": "center",
         "cols": {
           "num": "col-10_md-12",
-          "push_left": "off-1_md-0",
-          "push_right": "off-1_md-0"
-        },
-        "content": "# this is another page"
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_2": {
+      "id": "history",
+      "grid": [
+        "middle",
+        "center"
+      ],
+      "col_1": {
+        "label": "A brief history of Royal Canadian Legion - Branch 74",
+        "description": "The Dr C.B. Lumsden Branch originated on 6 July 1945. We are a non-profit organization whose mandate is to ensure that Canadians never forget the sacrifices made by the men and women who have served their country in times of war and peace and to care for the veterans and their families, providing financial assistance, counselling and medical equipment. We also provide bursaries to graduating high school students and provide a sense of community to the residents of the Town of Wolfville and the surrounding communities. We are fast becoming the place where people choose to come to beat the stigma of being alone, to attend Acts of Remembrance, enjoy events such as live musical entertainment, cards, darts, coffee and tea socials, weekly suppers, a monthly breakfast, and to lend an ear to many in need. ",
+        "ctas": [
+          {
+            "type": "solid",
+            "text": "Follow us on Facebook",
+            "url": "/"
+          }
+        ],
+        "type": "text_block",
+        "cols": {
+          "num": "col-5_sm-10_mi-12",
+          "push_left": "",
+          "push_right": "off-1_sm-0"
+        }
       },
-      "hide": false
+      "col_2": {
+        "src": "/images/poppy.png",
+        "type": "image_block",
+        "cols": {
+          "num": "col-5_sm-hidden",
+          "push_left": "",
+          "push_right": "off-1"
+        }
+      }
+    },
+    "section_basic_section_3": {
+      "id": "execs",
+      "grid": [
+        "middle",
+        "center"
+      ],
+      "col_1": {
+        "label": "Executive Board",
+        "members": [
+          {
+            "name": "Donn Miles",
+            "icon": "",
+            "position": "President",
+            "description": ""
+          },
+          {
+            "name": "Paul Mruphy",
+            "icon": "",
+            "position": "1st Vice President",
+            "description": ""
+          },
+          {
+            "name": "Terry Buttler",
+            "icon": "",
+            "position": "2nd Vice President",
+            "description": ""
+          },
+          {
+            "name": "Susanne Winters",
+            "icon": "",
+            "position": "Secretary",
+            "description": ""
+          },
+          {
+            "name": "JoAnn Jackson",
+            "icon": "",
+            "position": "Treasurer",
+            "description": ""
+          },
+          {
+            "name": "David 'Kip' Hannigan",
+            "icon": "",
+            "position": "Sargeant-at-Arms",
+            "description": ""
+          },
+          {
+            "name": "Jim Russel",
+            "icon": "",
+            "position": "Chaplain",
+            "description": ""
+          },
+          {
+            "name": "Jim Price",
+            "icon": "",
+            "position": "Service Officer",
+            "description": ""
+          },
+          {
+            "name": "Michael Bawtree",
+            "icon": "",
+            "position": "Past President",
+            "description": ""
+          }
+        ],
+        "type": "team_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_4": {
+      "id": "committee",
+      "grid": [
+        "middle",
+        "center"
+      ],
+      "col_1": {
+        "label": "Committee Chairs",
+        "members": [
+          {
+            "name": "Peter Tatrallyay",
+            "icon": "",
+            "position": "Poppy Chair",
+            "description": ""
+          },
+          {
+            "name": "JoAnn Jackson",
+            "icon": "",
+            "position": "Finance Chair",
+            "description": ""
+          },
+          {
+            "name": "Michael Bawtree",
+            "icon": "",
+            "position": "Renovations Co-Chair",
+            "description": ""
+          },
+          {
+            "name": "Paul Murphy",
+            "icon": "",
+            "position": "Renovations Co-Chair",
+            "description": ""
+          },
+          {
+            "name": "Ted Cross",
+            "icon": "",
+            "position": "Membership Chair",
+            "description": ""
+          },
+          {
+            "name": "Terry Butler",
+            "icon": "",
+            "position": "Bartender Chair & House and Property Chair",
+            "description": ""
+          },
+          {
+            "name": "Mark Legge",
+            "icon": "",
+            "position": "Sports Chair & Honours and Awards Chair",
+            "description": ""
+          },
+          {
+            "name": "Brent Platt",
+            "icon": "",
+            "position": "Fundraising Chair",
+            "description": ""
+          }
+        ],
+        "type": "team_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_5": {
+      "id": "newsletter",
+      "grid": [
+        "middle",
+        "center"
+      ],
+      "col_1": {
+        "label": "News Letter and Articles",
+        "description": "",
+        "list": {
+          "heading": "",
+          "items": [
+            "General Newsletter April 2023",
+            "Saltwire Coverage of Return to Traditional Remembrance Day Ceremony in Wolfville",
+            "Saltwire Coverage of Return to Traditional Remembrance Day Ceremony in Wolfville",
+            "Saltwire Coverage of Return to Traditional Remembrance Day Ceremony in Wolfville"
+          ]
+        },
+        "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
     }
   }
 }
