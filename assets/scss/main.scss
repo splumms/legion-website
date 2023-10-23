@@ -284,6 +284,14 @@ table {
 }
 // ////////////////////////////////////////////////////////////////// Index Page
 .page-index {
+  .site-header {
+    position: absolute;
+    top: 0;
+    padding: toRem(30) 4rem;
+    @include medium {
+      padding: toRem(30) 2rem;
+    }
+  }
   .hero {
     position: relative;
     margin-bottom: 0;
@@ -356,5 +364,27 @@ table {
         font-size: 2rem;
       }
     }
+  }
+}
+.hero { 
+  &.blue {
+    .text-block {
+      padding-top: 10rem;
+      padding-bottom: 5rem;
+    }
+  }
+  &.red {
+    .text-block {
+      padding-top: 10rem;
+      padding-bottom: 5rem;
+    }
+  }
+}
+.hero-poppy {
+  .hero-image {
+    position: relative;
+    top: -1rem;
+    right: -7rem;
+    transform: scale(1.1);
   }
 }
