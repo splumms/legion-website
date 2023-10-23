@@ -1,0 +1,82 @@
+{
+  "seo": {
+    "title": "Wolfville Legion - Contact",
+    "description": ""
+  },
+  "og": {
+    "title": "Wolfville Legion - Contact",
+    "url": "",
+    "type": "website",
+    "image": "/images/open-graph.png"
+  },
+  "page_content": {
+    "section_basic_section_1": {
+      "grid": [
+        "middle",
+        "center"
+      ],
+      "classNames": ["hero", "blue", "full"],
+      "col_1": {
+        "label": "Dr. C.B. Lumsden, Branch No. 74",
+        "heading": "Contact Us",
+        "description": "310 Main St. Wolfville Nova Scotia B4P 1C4",
+        "ctas": [],
+        "type": "text_block",
+        "align": "center",
+        "cols": {
+          "num": "col-10_md-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_2": {
+      "id": "history",
+      "grid": [
+        "middle"
+      ],
+      "col_1": {
+        "label": "Visit",
+        "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_2": {
+        "src": "/images/poppy.png",
+        "type": "image_block",
+        "cols": {
+          "num": "col-6_sm-10",
+          "push_left": "",
+          "push_right": "off-0_sm-2"
+        }
+      },
+      "col_3": {
+        "label": "Visit",
+        "type": "text_block",
+        "cols": {
+          "num": "col-6_sm-10",
+          "push_left": "",
+          "push_right": "off-0_sm-2"
+        }
+      }
+    },
+    "section_basic_section_3": {
+      "id": "form",
+      "grid": [
+        "middle"  
+      ],
+      "col_1": {
+        "label": "Send Us a Message",
+        "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    }
+  }
+}
