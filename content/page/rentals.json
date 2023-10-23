@@ -1,0 +1,49 @@
+{
+  "seo": {
+    "title": "Wolfville Legion - Rentals",
+    "description": ""
+  },
+  "og": {
+    "title": "Wolfville Legion - Rentals",
+    "url": "",
+    "type": "website",
+    "image": "/images/open-graph.png"
+  },
+  "page_content": {
+    "section_basic_section_1": {
+      "grid": [
+        "middle",
+        "center"
+      ],
+      "classNames": ["hero", "red", "full"],
+      "col_1": {
+        "label": "Dr. C.B. Lumsden, Branch No. 74",
+        "heading": "Contact Us",
+        "description": "",
+        "ctas": [],
+        "type": "text_block",
+        "align": "center",
+        "cols": {
+          "num": "col-10_md-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_2": {
+      "id": "history",
+      "grid": [
+        "middle"
+      ],
+      "col_1": {
+        "label": "Interested in Renting our Hall?",
+        "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    }
+  }
+}
