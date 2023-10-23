@@ -63,6 +63,7 @@
 </template>
 
 <script>
+import TeamBlock from '@/components/blocks/team-block'
 import CardBlock from '@/components/blocks/card-block'
 import TextBlock from '@/components/blocks/text-block'
 import ImageBlock from '@/components/blocks/image-block'
@@ -73,6 +74,7 @@ export default {
   name: 'BlockBuilder',
 
   components: {
+    TeamBlock,
     CardBlock,
     TextBlock,
     ImageBlock,
@@ -108,6 +110,7 @@ export default {
       const type = block.type
       let name = ''
       switch (type) {
+        case 'team_block' : name = 'TeamBlock'; break
         case 'card_block' : name = 'CardBlock'; break
         case 'text_block' : name = 'TextBlock'; break
         case 'image_block' : name = 'ImageBlock'; break
@@ -122,7 +125,11 @@ export default {
 
 <style lang="scss" scoped>
 .blue {
-  background-color: #407C9D;
+  background-color: $color_Secondary;
+  color: white;
+}
+.red {
+  background-color: #8D3434;
   color: white;
 }
 </style>

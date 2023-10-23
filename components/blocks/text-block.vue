@@ -102,6 +102,7 @@ export default {
   }
   .label {
     font-weight: bold;
+    text-transform: uppercase;
   }
 }
 .list {
