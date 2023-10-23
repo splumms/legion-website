@@ -8,7 +8,7 @@
         <a class="address" href="">310 Main St, <br>Wolfville, NS B4P 1C4</a>
       </div>
       <div class="col-4_sm-6_mi-12 footer-nav">
-        <a href="">Rentals</a>
+        <a href="/rentals">Rentals</a>
         <a href="">By-laws</a>
         <a href="">Newsletter</a>
       </div>
