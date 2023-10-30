@@ -18,7 +18,7 @@
       "classNames": ["hero", "red", "full"],
       "col_1": {
         "label": "Dr. C.B. Lumsden, Branch No. 74",
-        "heading": "Contact Us",
+        "heading": "Rentals",
         "description": "",
         "ctas": [],
         "type": "text_block",
@@ -31,13 +31,29 @@
       }
     },
     "section_basic_section_2": {
-      "id": "history",
+      "id": "rental-intro",
       "grid": [
         "middle"
       ],
       "col_1": {
         "label": "Interested in Renting our Hall?",
+        "description": "Rentals are available to the public.  Reach our directly to a legion representative or fill out the form below to find out more.<p style='color: #860A0A'>DO TO ONGOING RENOVATIONS RENTALS ARE CURRENTLY UNAVAILABLE.  SHOULD YOU BE INQUIRING ABOUT A FUTURE DATE (FEBRUARY 2024 OR LATER) PLEASE FILL IN THE FORM BELOW AND SOMEONE WILL BE IN TOUCH.</p>",
         "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_3": {
+      "id": "form",
+      "grid": [
+        "middle"  
+      ],
+      "col_1": {
+        "label": "Send us a Message",
+        "type": "rentals_form_block",
         "cols": {
           "num": "col-12",
           "push_left": "",
