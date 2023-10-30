@@ -58,7 +58,7 @@
       </div>
       <div class="col-4">
         <div class="join-cta">
-          <NuxtLink to="/join" class="">
+          <NuxtLink to="/join" class="join">
             Join
           </NuxtLink>
         </div>
@@ -146,6 +146,9 @@ export default {
       right: 2rem;
       z-index: 13;
     }
+    .join {
+      color: black;
+    }
   }
 
   .dropdown {
@@ -167,6 +170,7 @@ export default {
   .dropbtn {
     transition: all ease 0.15s;
     position: relative;
+    color: black;
     &:after {
       content: "";
       display: block;
