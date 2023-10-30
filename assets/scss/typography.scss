@@ -74,9 +74,10 @@ $letterSpacing_Large: 0.03em;
 
 @mixin h6 {
   @include fontSize_Regular; // 18px
-  @include fontWeight_Medium; // 500
+  @include fontWeight_Bold; // 700
   font-family: $font_Primary;
   line-height: leading(30, 18);
+  color: $color_Accent;
 }
 
 @mixin h7 {

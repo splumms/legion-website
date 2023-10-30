@@ -63,6 +63,8 @@
 </template>
 
 <script>
+import RentalsFormBlock from '@/components/blocks/rentals-form-block'
+import FormBlock from '@/components/blocks/form-block'
 import TeamBlock from '@/components/blocks/team-block'
 import CardBlock from '@/components/blocks/card-block'
 import TextBlock from '@/components/blocks/text-block'
@@ -74,6 +76,8 @@ export default {
   name: 'BlockBuilder',
 
   components: {
+    RentalsFormBlock,
+    FormBlock,
     TeamBlock,
     CardBlock,
     TextBlock,
@@ -110,6 +114,8 @@ export default {
       const type = block.type
       let name = ''
       switch (type) {
+        case 'rentals_form_block' : name = 'RentalsFormBlock'; break
+        case 'form_block' : name = 'FormBlock'; break
         case 'team_block' : name = 'TeamBlock'; break
         case 'card_block' : name = 'CardBlock'; break
         case 'text_block' : name = 'TextBlock'; break

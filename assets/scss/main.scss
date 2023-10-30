@@ -166,6 +166,7 @@ p {
 
 a {
   @include p1Link;
+  color: $color_Secondary;
 }
 
 strong {
@@ -282,16 +283,58 @@ table {
     }
   }
 }
+// /////////////////////////////////////////////////////////////////////// Forms
+input, textarea {
+  width: 100%;
+}
+input::placeholder, textarea::placeholder {
+ color: #A68989; 
+}
+input[type="radio"] {
+  width: auto;
+}
+input[type="text"] {
+  background-color: #D9D9D9;
+  padding: 0.25rem 0.5rem;
+  border: none;
+}
+textarea {
+  background-color: #D9D9D9;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  min-height: 15rem;
+}
+input[type="submit"] {
+  transition: background-color $duration ease;
+  background-color: #8D3434;
+  padding: 0.5rem toRem(15);
+  color: white;
+  border: none;
+  border-radius: $borderRadius_Medium;
+  &:hover {
+    transition: background-color $duration ease;
+    background-color: #860A0A;
+  }
+  max-width: 10rem;
+}
+select {
+  background-color: #D9D9D9;
+  padding: 0.325rem 0.5rem;
+  border: none;
+  border-radius: 0.325rem;
+}
+
+
 // ////////////////////////////////////////////////////////////////// Index Page
 .page-index {
-  .site-header {
-    position: absolute;
-    top: 0;
-    padding: toRem(30) 4rem;
-    @include medium {
-      padding: toRem(30) 2rem;
-    }
-  }
+  // .site-header {
+  //   position: absolute;
+  //   top: 0;
+  //   padding: toRem(30) 4rem;
+  //   @include medium {
+  //     padding: toRem(30) 2rem;
+  //   }
+  // }
   .hero {
     position: relative;
     margin-bottom: 0;
@@ -386,5 +429,10 @@ table {
     top: -1rem;
     right: -7rem;
     transform: scale(1.1);
+  }
+}
+.page-rentals {
+  .rental-intro {
+    margin-bottom: 2rem;
   }
 }

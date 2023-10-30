@@ -45,7 +45,7 @@
         }
       },
       "col_2": {
-        "src": "/images/poppy.png",
+        "src": "/images/legion-map.png",
         "type": "image_block",
         "cols": {
           "num": "col-6_sm-10",
@@ -54,25 +54,25 @@
         }
       },
       "col_3": {
-        "label": "Visit",
+        "description": "<h6>Our Location</h6><p>310 Main St. Wolfville, Nova Scotia B4P 1C4</p><br><h6>Phone</h6><p>(902) 542-5869</p><br><h6>Email</h6><p>wolfvillelegion@gmail.com</p>",
         "type": "text_block",
         "cols": {
-          "num": "col-6_sm-10",
-          "push_left": "",
-          "push_right": "off-0_sm-2"
+          "num": "col-5_sm-10",
+          "push_left": "off-1",
+          "push_right": ""
         }
       }
     },
-    "section_basic_section_3": {
+    "section_basic_section_4": {
       "id": "form",
       "grid": [
         "middle"  
       ],
       "col_1": {
-        "label": "Send Us a Message",
-        "type": "text_block",
+        "label": "Send us a Message",
+        "type": "form_block",
         "cols": {
-          "num": "col-12",
+          "num": "col-8",
           "push_left": "",
           "push_right": ""
         }
