@@ -1,0 +1,335 @@
+{
+  "seo": {
+    "title": "Wolfville Legion - Events",
+    "description": ""
+  },
+  "og": {
+    "title": "Wolfville Legion - Events",
+    "url": "",
+    "type": "website",
+    "image": "/images/open-graph.png"
+  },
+  "page_content": {
+    "section_basic_section_1": {
+      "grid": [
+        "middle",
+        "center"
+      ],
+      "classNames": ["hero", "blue", "full"],
+      "col_1": {
+        "label": "Dr. C.B. Lumsden, Branch No. 74",
+        "heading": "Events",
+        "description": "Come say hi!",
+        "ctas": [],
+        "type": "text_block",
+        "align": "center",
+        "cols": {
+          "num": "col-10_md-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_2": {
+      "slug": "current-events",
+      "id": "current-events",
+      "grid": [
+        "middle",
+        "center",
+        "equalHeight"
+      ],
+      "col_1": {
+        "label": "Upcoming Events",
+        "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_2": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_3": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_4": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_5": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_6": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_7": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_8": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_9": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_10": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_11": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_12": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_13": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_3": {
+      "slug": "all-events",
+      "id": "all-events",
+      "grid": [
+        "middle",
+        "center",
+        "equalHeight"
+      ],
+      "col_1": {
+        "label": "Regularly Scheduled Events",
+        "description": "", 
+        "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_2": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_3": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_4": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_5": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_6": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_7": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_8": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_9": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_10": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_11": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_12": {
+        "heading": "Coffee Break",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      },
+      "col_13": {
+        "heading": "Karaoke",
+        "where": "<strong>Where:</strong> White Rock Hall",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "type": "card_block",
+        "cols": {
+          "num": "col-6_md-8_sm-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    }
+  }
+}

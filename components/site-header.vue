@@ -15,20 +15,20 @@
               About
             </NuxtLink>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="/about#history">Our History</a>
+              <a href="/about#executive-board">Executive Board</a>
+              <a href="/about#committee-chairs">Committee Chairs</a>
+              <a href="/about#newsletters">Newsletters</a>
             </div>
           </div>
           
           <div class="dropdown">
-            <NuxtLink to="/" class="dropbtn">
+            <NuxtLink to="/events" class="dropbtn">
               Events
             </NuxtLink>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="/events#current-events">Current Events</a>
+              <a href="/events#all-events">All Events</a>
             </div>
           </div>
 
@@ -48,9 +48,7 @@
               Contact
             </NuxtLink>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="/rentals">Rentals</a>
             </div>
           </div>
 
@@ -189,8 +187,8 @@ export default {
   .dropdown-content {
     display: none;
     position: absolute;
+    min-width: 12rem;
     background-color: #f1f1f1;
-    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 12;
     a {

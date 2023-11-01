@@ -6,9 +6,9 @@
       :src="block.src"
       :alt="block.alt ? block.alt : $GetPrettyNameFromUrl(block.src)" />
 
-    <caption v-if="block.caption">
+    <figcaption v-if="block.caption">
       {{ block.caption }}
-    </caption>
+    </figcaption>
 
   </div>
 </template>
