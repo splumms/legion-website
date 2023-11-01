@@ -56,7 +56,7 @@
       ],
       "col_1": {
         "label": "Why Join?",
-        "description": "",
+        "description": "<p>By joining the Royal Canadian Legion, you will have the opportunity to make new friends, become involved with your community and to develop and share your leadership skills. You will help to perpetuate the Remembrance of those who gave so much for the freedom and prosperity we enjoy today and the proud heritage of this great Canadian organization will be enriched by the enthusiasm, energy and new ideas that you bring.</p><p>The following are some of the many benefits membership in The Royal Canadian Legion:</p><ul><li>Social Activities - We have two licensed lounges. Members and community at large can enjoy a wide variety of social events such as dances, barbeques, entertainment and a host of other special events.</li><li>Member Sports - Our Legion supports events such as darts, cribbage and 45s with competitions ranging from local, provincial to national levels.</li><li>Member Benefits Package - The Royal Canadian Legion has developed a relationship with a number of corporate partners to provide products and services to its members. Some of the partners include a home and auto insurance company, health care services, travel insurance, a credit card company, and an auto club to name a few. Only Legion members are entitled to the benefits offered.</li><li>Community Service -You can serve your community by assisting with the many Legion programs in support of youth, seniors, the disabled and others. The Royal Canadian Legion also provides bursaries and scholarships to students from Secondary School to the University level and is the largest single supporter of Scouts and Guides in Canada. It is also a major supporter of sea, army and air cadets.</li><li>Leadership - You will have the opportunity to grow within this great organization. We need members who can take on Leadership roles and challenges. If this is where your interest lies you can become involved by serving on the branch executive. You may even wish to go to higher levels such as zone, district or provincial. You may even aspire to the national level. Every Dominion President who has served in this capacity started out as a branch member. You, too, could one day be President of the largest community service organization in Canada.</li><li>Volunteering- We are an entirely volunteer organization from our executive members, event chairpersons, bartending, catering entertainment, plus setup and tear down for events.</li><li>Service - As Canada's largest volunteer organization, tremendous intangible benefits are gained through the commitment of members to fulfill the mandate of remembrance, service to the community and our country. Our fallen comrades served in battle; you have 'another way to serve' by joining The Royal Canadian Legion.</li><li>Legion Magazine- Your membership includes a subscription to the Legion Magazine which is published six times a year. It contains articles on various topics including history, current events and general interest stories, as well as keeping members up-to-date on the many and varied Legion activities. It also contains a section dedicated to the recognition of those who served their country.</li></ul><p>The many opportunities and programs offered by The Royal Canadian Legion are identified throughout our web site or you may wish to contact our local Legion Branch for more information.</p>",
         "type": "text_block",
         "cols": {
           "num": "col-12",
@@ -66,7 +66,7 @@
       },
       "col_2": {
         "label": "Who Can Join?",
-        "description": "",
+        "description": "<p>You may be eligible for membership in a Canadian branch of The Royal Canadian Legion if you are a Canadian citizen or Commonwealth subject and are of federal voting age. You may be eligible for Non-Voting membership if you are a non-Canadian citizen or a non-Commonwealth subject from an Allied nation.</p><p>There are four membership categories, each with different qualifications. The criteria for each category are as follows:</p><ul><strong>Ordinary Membership - You may be eligible for Ordinary membership if you have served or are serving in:</strong><li>The Canadian Forces or Her Majesty's Forces (including regular force or reserve force under class 'C' service)</li><li>the Forces or underground forces of any of Her Majesty's allies in any war, conflict or police action in which Canada was involved</li><li>the Merchant Navy or non-military services in an actual theatre of war in which Canada was involved</li><li>Her Majesty's reserve forces including Cadet Instructors on the Cadet Cadre for not less than one year</li><li>The Royal Canadian Mounted Police or The Royal Newfoundland Constabulary for not less than one year</li><li>the Forces of a country while that country was a member of NATO or NORAD in alliance with Canada</li><li>the Forces of the United States</li><li>the Vietnam War with the Armed Forces of the United States, Australia, New Zealand, the Republic of Korea or South Vietnam, and were a Canadian citizen or Commonwealth subject at the time of service</li><li>the Canadian Coast Guard as an officer or crew member who has two or more years active service on the high seas or inland waterways</li><li>a city, municipal or provincial police force as a police officer for not less than one year</li></ul><ul><strong>Associate Membership - If you do not qualify for Ordinary membership you may be eligible for Associate membership if you:</strong><li>are the child, stepchild, adopted child, grandchild, sibling, niece/nephew, widow/er, parent or spouse of someone who is or was eligible for Ordinary membership</li><li>are the child of an Associate member</li><li>have served in The Royal Canadian Sea, Army or Air Cadets for not less than 3 years</li><li>have served as a cadet civilian instructor for not less than 3 years</li><li>have served as an officer in the Navy League of Canada for not less than 2 years</li><li>have served in the Polish Armed Forces after WW II below the rank of officer</li><li>have served in a City, Municipal, Volunteer, Un-organized Territories or Federal Fire Service for not less than one year</li><li>are the spouse, parent or sibling of an associate member who qualified subject to the above criteria.</li></ul><p>Affiliate Voting Membership - If you do not qualify for Ordinary or Associate membership but support the aims and objects of The Royal Canadian Legion you may apply for Affiliate Voting membership.</p><p>Affiliate Non-Voting Membership - If you are a non-Canadian citizen or a non-Commonwealth subject from an Allied nation and support the aims and objects of The Royal Canadian Legion, you may apply for Affiliate Non-Voting membership. These members shall have the same rights as all other members except the rights to vote and hold office. A member admitted under this Section is not permitted to apply for voting status unless otherwise qualified.</p><p>For further information, please <a href='/contact'>contact our Legion Branch.</a></p>",
         "type": "text_block",
         "cols": {
           "num": "col-12",
@@ -76,7 +76,7 @@
       },
       "col_3": {
         "label": "How to Join",
-        "description": "",
+        "description": "<p><a href='/contact'>You should apply for membership by contacting our branch.</a></p><p>We will assist you in completing your application form and can advise you on your eligibility status and what documentation may be required. Each branch enjoys a measure of autonomy so activities, programs and membership dues may vary from other branches so please ask and we will explain these items in more detail.</p><p>You can also register on line with the Royal Canadian Legion</p>",
         "type": "text_block",
         "cols": {
           "num": "col-12_sm-10",
@@ -86,14 +86,7 @@
       },
       "col_4": {
         "label": "Membership Forms and Manual",
-        "description": "",
-        "list": {
-          "items": [
-            "Verteran's First Year Free Membership Form",
-            "Membership Form",
-            "Membership Manual"
-          ]
-        },
+        "description": "<ul><li><a href=''>Veterans First Year Free Membership Form</a></li><li><a href=''>Membership Form</a></li><li><a href=''>Membership Manual</a></li></ul>",
         "type": "text_block",
         "cols": {
           "num": "col-12_sm-10",

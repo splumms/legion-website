@@ -51,50 +51,85 @@
         "middle"
       ],
       "col_1": {
-        "label": "Why Join?",
-        "description": "",
-        "type": "text_block",
+        "src": "/images/legion-render-front.png",
+        "caption": "Render of the future front-entrance and upstairs addition of the verteran’s counselling room",
+        "type": "image_block",
         "cols": {
-          "num": "col-12",
-          "push_left": "",
+          "num": "col-6_md-10",
+          "push_left": "off-0_md-1",
           "push_right": ""
         }
       },
       "col_2": {
-        "label": "Who Can Join?",
-        "description": "",
+        "label": "Renovations Phase 2",
+        "description": "We have been out of our building since Covid began March 2020 due to Covid Health Restrictions and now renovations. We have completed Phase One which included raising the building 12 inches, replacing the foundation, installing a new drainage system and installing an elevator shaft. We are currently constructing two new upper level additions, one in the front and one in the rear, a new roof, a mechanical room at the rear and a completely renovated basement to include a new ramp, power entry door, 2 accessible washrooms, an accessible bar and 6 accessible dart boards. Before we complete this phase and continue into the last phase we need your help if we are to sustain a viable long-term facility where we can maintain our mission and provide a safe place for all members of our community. To date we have received and used Government Grants, our own Branch 74 money, donations from a few members, demolition pro-bono labour from our members, pro-bono assistance from many companies and a variety of construction material from several companies. We now need your help!",
+        "type": "text_block",
+        "cols": {
+          "num": "col-5_md-10",
+          "push_left": "off-1_sm-0",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_3": {
+      "slug": "how-to-donate",
+      "grid": [
+        "middle"
+      ],
+      "col_1": {
+        "label": "HOW YOU CAN DONATE",
+        "description": "<p>There are many ways in which you can contribute. Choose a category that is appropriate for you and your budget and help us meet our target goals—but please give as generously as you can! Your gift will be permanently recognised!</p><p>All donations will be entered in a Book of Honour and permanently displayed in the Veterans Suite, new upper level addition.</p><p>Donations of $5,000 and above will be recognised on our Donor Recognition Wall, which will be placed in the Veterans Suite in perpetuity.</p><p>Designated areas of the newly renovated Legion will be available to major donors for naming privileges.</p><h6>Make a donation by cheque:</h6><p>Please make cheques payable to Wolfville Legion 75 Fund and send them to: Wolfville Legion Branch 74, 310 Main Street, Wolfville, Nova Scotia B4P 1C4 (or present the cheque to any of our committee members)</p><h6>Make a donation by e-transfer:</h6><p>Send e-transfer donations to wolfvillelegion@gmail.com</p><h6>Contact Committee Members:</h6><p>Send an email to wolfvillelegion@gmail.com to meet up or to arrange a drop off point to present a cheque or cash donation to one of our committee members</p><h6>RCL- NS BRANCHES 50/50 DRAW</h6>",
         "type": "text_block",
         "cols": {
           "num": "col-12",
           "push_left": "",
+          "push_right": "off-0"
+        }
+      }
+    },
+    "section_basic_section_4": {
+      "slug": "who-can-donate",
+      "grid": [
+        "middle"
+      ],
+      "col_1": {
+        "label": "Who Can Donate",
+        "description": "<h6>Community Leaders Circle</h6><p>A number of distinguished local community leaders have already donated and/or have promised their generous help. Are you in a position to join this elite Circle? We welcome you in!</p> <h6>Community Clubs and Professional Organisations</h6><p>We invite local Community Clubs and Professional Groups (lawyers, doctors, dentists, accountants, real estate firms etc.) to reach out and join our campaign.</p><h6>National Corporations</h6><p>For 75 years the Legion has been a customer of two major banks, as well as telephone and hydro companies. We invite them and other major corporations with local branches to make important contributions.</p><h6>Community Businesses</h6><p>Local businesses are the lifeblood of the community, and can be credited with much of the success of our small but mighty town. The Legion and its members have been their customers for many years. Please join us now!</p><h6>Special Sponsors</h6><p>Gold: $15,000-$25,000 Silver: $5,000-$14,999 Bronze: $2,000-$4,999<br>This category is for those individuals or families who would like to give a sizeable donation, perhaps in memory of a fallen Veteran. Choose from one of the three ranges shown here. We have some already committed in these categories</p><h6>Monthly Installment Fund Club</h6><p>Many individuals would prefer to contribute on a monthly basis over a year or more. This may be the Club for you! We have several already promising $100 a month for two years which puts them at a $2400 donation and that puts them into the Bronze Category while we have a few who are contributing $25 a month for two years which amasses a combined donation of $600. Why not choose a figure you are comfortable with.</p><h6>Supporting Donations</h6><p>Didn't see a category that fits you, maybe wanting to donate what you can, however small or large it may be, then this is for you. All donations will go a long way to finishing our renovations.</p><p>Let's be able to Continue Remembering the Fallen and to Care for Veterans and their Families at our Branch.</p>",
+        "type": "text_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": "off-0"
+        }
+      }
+    },
+    "section_basic_section_5": {
+      "slug": "sponsors",
+      "grid": [
+        "middle"
+      ],
+      "col_1": {
+        "heading": "Current Renovation Sponsors",
+        "icon": "",
+        "sponsor": "FCC AGRISPIRIT FUND",
+        "description": "New Kitchen",
+        "type": "slider_block",
+        "cols": {
+          "num": "col-12_sm-10",
+          "push_left": "off-0_sm-1",
           "push_right": ""
         }
       },
-      "col_3": {
-        "label": "How to Join",
-        "description": "",
-        "type": "text_block",
+      "col_2": {
+        "heading": "Past Renovation Sponsors",
+        "icon": "",
+        "sponsor": "FCC AGRISPIRIT FUND",
+        "description": "New Kitchen",
+        "type": "slider_block",
         "cols": {
           "num": "col-12_sm-10",
-          "push_left": "",
-          "push_right": "off-0_sm-2"
-        }
-      },
-      "col_4": {
-        "label": "Membership Forms and Manual",
-        "description": "",
-        "list": {
-          "items": [
-            "Verteran's First Year Free Membership Form",
-            "Membership Form",
-            "Membership Manual"
-          ]
-        },
-        "type": "text_block",
-        "cols": {
-          "num": "col-12_sm-10",
-          "push_left": "",
-          "push_right": "off-0_sm-2"
+          "push_left": "off-0_sm-1",
+          "push_right": ""
         }
       }
     }

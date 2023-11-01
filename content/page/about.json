@@ -46,6 +46,15 @@
         "center"
       ],
       "col_1": {
+        "src": "/images/poppy.png",
+        "type": "image_block",
+        "cols": {
+          "num": "col-5_md-hidden",
+          "push_left": "",
+          "push_right": "off-1"
+        }
+      },
+      "col_2": {
         "label": "A brief history of Royal Canadian Legion - Branch 74",
         "description": "The Dr C.B. Lumsden Branch originated on 6 July 1945. We are a non-profit organization whose mandate is to ensure that Canadians never forget the sacrifices made by the men and women who have served their country in times of war and peace and to care for the veterans and their families, providing financial assistance, counselling and medical equipment. We also provide bursaries to graduating high school students and provide a sense of community to the residents of the Town of Wolfville and the surrounding communities. We are fast becoming the place where people choose to come to beat the stigma of being alone, to attend Acts of Remembrance, enjoy events such as live musical entertainment, cards, darts, coffee and tea socials, weekly suppers, a monthly breakfast, and to lend an ear to many in need. ",
         "ctas": [
@@ -57,18 +66,9 @@
         ],
         "type": "text_block",
         "cols": {
-          "num": "col-5_sm-10_mi-12",
+          "num": "col-5_md-10_mi-12",
           "push_left": "",
-          "push_right": "off-1_sm-0"
-        }
-      },
-      "col_2": {
-        "src": "/images/poppy.png",
-        "type": "image_block",
-        "cols": {
-          "num": "col-5_sm-hidden",
-          "push_left": "",
-          "push_right": "off-1"
+          "push_right": "off-1_mi-0"
         }
       }
     },
@@ -84,55 +84,55 @@
         "members": [
           {
             "name": "Donn Miles",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "President",
             "description": ""
           },
           {
             "name": "Paul Mruphy",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "1st Vice President",
             "description": ""
           },
           {
             "name": "Terry Buttler",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "2nd Vice President",
             "description": ""
           },
           {
             "name": "Susanne Winters",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Secretary",
             "description": ""
           },
           {
             "name": "JoAnn Jackson",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Treasurer",
             "description": ""
           },
           {
             "name": "David 'Kip' Hannigan",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Sargeant-at-Arms",
             "description": ""
           },
           {
             "name": "Jim Russel",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Chaplain",
             "description": ""
           },
           {
             "name": "Jim Price",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Service Officer",
             "description": ""
           },
           {
             "name": "Michael Bawtree",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Past President",
             "description": ""
           }
@@ -157,49 +157,49 @@
         "members": [
           {
             "name": "Peter Tatrallyay",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Poppy Chair",
             "description": ""
           },
           {
             "name": "JoAnn Jackson",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Finance Chair",
             "description": ""
           },
           {
             "name": "Michael Bawtree",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Renovations Co-Chair",
             "description": ""
           },
           {
             "name": "Paul Murphy",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Renovations Co-Chair",
             "description": ""
           },
           {
             "name": "Ted Cross",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Membership Chair",
             "description": ""
           },
           {
             "name": "Terry Butler",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Bartender Chair & House and Property Chair",
             "description": ""
           },
           {
             "name": "Mark Legge",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Sports Chair & Honours and Awards Chair",
             "description": ""
           },
           {
             "name": "Brent Platt",
-            "icon": "",
+            "icon": "/images/poppy-flower.svg",
             "position": "Fundraising Chair",
             "description": ""
           }

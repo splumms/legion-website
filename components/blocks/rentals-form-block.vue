@@ -1,7 +1,7 @@
 <template>
   <section class="form">
     <div class="grid">
-      <div class="col-4">
+      <div class="col-4_sm-9">
 
         <div class="field">
           <div class="control">
@@ -45,7 +45,7 @@
 
       </div>
 
-      <div class="col-4" data-push-left="off-1">
+      <div class="col-4_sm-9" data-push-left="off-1_sm-0">
         <div class="field">
           <label><strong>Liquor License Required?</strong></label>
           <div class="control radio-container">

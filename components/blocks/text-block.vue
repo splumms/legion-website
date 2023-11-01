@@ -9,15 +9,15 @@
 
     <h1 v-if="block.heading" class="heading" v-html="block.heading"></h1>
 
-    <div class="text-wrapper">
-      <div v-if="block.description" class="description">
+    <div v-if="block.description" class="text-wrapper">
+      <div class="description">
         <MarkdownParser :markdown="block.description" />
       </div>
     </div>
 
     <div class="list-wrapepr">
       <div v-if="block.list" class="list">
-        <h4 v-html="block.list.heading"></h4>
+        <h4 v-if="block.list.heading" v-html="block.list.heading"></h4>
         <ul>
           <li 
             v-for="(item, index) in block.list.items"
@@ -114,6 +114,9 @@ export default {
   margin-bottom: 0;
   .button:first-child {
     margin-right: toRem(35);
+    @include small {
+      margin-bottom: 1.5rem;
+    }
   }
   .button:only-child {
     margin-right: 0;
