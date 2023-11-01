@@ -1,0 +1,84 @@
+{
+  "seo": {
+    "title": "Wolfville Legion - Gallery",
+    "description": ""
+  },
+  "og": {
+    "title": "Wolfville Legion - Gallery",
+    "url": "",
+    "type": "website",
+    "image": "/images/open-graph.png"
+  },
+  "page_content": {
+    "section_basic_section_1": {
+      "grid": [
+        "middle",
+        "center"
+      ],
+      "classNames": ["hero", "blue", "full"],
+      "col_1": {
+        "heading": "Gallery",
+        "ctas": [],
+        "type": "text_block",
+        "align": "center",
+        "cols": {
+          "num": "col-10_md-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    },
+    "section_basic_section_2": {
+      "grid": [
+        "middle",
+        "center",
+        "equalHeight"
+      ],
+      "col_1": {
+        "images": [
+          {
+            "src": "/images/legion-render-front.png",
+            "alt": "",
+            "caption": ""
+          },
+          {
+            "src": "/images/lighthouse.jpg",
+            "alt": "",
+            "caption": ""
+          },
+          {
+            "src": "/images/lighthouse.jpg",
+            "alt": "",
+            "caption": ""
+          },
+          {
+            "src": "/images/legion-render-front.png",
+            "alt": "",
+            "caption": ""
+          },
+          {
+            "src": "/images/lighthouse.jpg",
+            "alt": "",
+            "caption": ""
+          },
+          {
+            "src": "/images/legion-render-front.png",
+            "alt": "",
+            "caption": ""
+          },
+          {
+            "src": "/images/legion-render-front.png",
+            "alt": "",
+            "caption": ""
+          }
+        ],
+        "type": "gallery_block",
+        "cols": {
+          "num": "col-12",
+          "push_left": "",
+          "push_right": ""
+        }
+      }
+    }
+  }
+}
