@@ -15,8 +15,7 @@
     margin-bottom: toRem(90);
   }
   // add margin bottom for first col and if col is marked first
-  [class*=grid-] > [class*=md-first],
-  [class*=grid-] > [class*=col-]:first-child {
+  [class*=grid-] > [class*=md-first]:first-child {
     @include medium {
       margin-bottom: toRem(34);
     }
