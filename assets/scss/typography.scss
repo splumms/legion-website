@@ -120,5 +120,5 @@ $letterSpacing_Large: 0.03em;
   @include fontSize_Mini; // 14px
   @include fontWeight_Regular; // 400
   font-family: $font_Primary;
-  line-height: leading(21, 14);
+  line-height: leading(18, 14);
 }

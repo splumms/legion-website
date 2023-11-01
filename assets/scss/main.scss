@@ -173,7 +173,7 @@ strong {
   font-weight: 600;
 }
 
-caption {
+caption, figcaption {
   @include caption;
 }
 
