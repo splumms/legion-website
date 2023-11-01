@@ -63,6 +63,8 @@
 </template>
 
 <script>
+import GalleryBlock from '@/components/blocks/gallery-block'
+import SliderBlock from '@/components/blocks/slider-block'
 import RentalsFormBlock from '@/components/blocks/rentals-form-block'
 import FormBlock from '@/components/blocks/form-block'
 import TeamBlock from '@/components/blocks/team-block'
@@ -76,6 +78,8 @@ export default {
   name: 'BlockBuilder',
 
   components: {
+    GalleryBlock,
+    SliderBlock,
     RentalsFormBlock,
     FormBlock,
     TeamBlock,
@@ -114,6 +118,8 @@ export default {
       const type = block.type
       let name = ''
       switch (type) {
+        case 'gallery_block': name = 'GalleryBlock'; break
+        case 'slider_block' : name = 'SliderBlock'; break
         case 'rentals_form_block' : name = 'RentalsFormBlock'; break
         case 'form_block' : name = 'FormBlock'; break
         case 'team_block' : name = 'TeamBlock'; break
