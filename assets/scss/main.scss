@@ -67,6 +67,7 @@ a, button {
 
 ul {
   padding-left: 1.25rem;
+  padding-bottom: 2rem;
 }
 
 img {
@@ -167,6 +168,22 @@ p {
 a {
   @include p1Link;
   color: $color_Secondary;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0;
+    background-color: $color_Secondary;
+    transition: ease width 0.25s;
+  }
+  &:hover {
+    &:before {
+      width: 100%;
+    }
+  }
 }
 
 strong {
@@ -351,7 +368,7 @@ select {
       }
     }
     .text-block {
-      padding-top: 8rem;
+      padding-top: 5rem;
       h1 {
         font-size: 3rem;
       }
