@@ -15,22 +15,31 @@
         "middle",
         "center"
       ],
-      "classNames": ["hero", "blue", "full"],
+      "classNames": ["hero", "hero-poppy", "full"],
       "col_1": {
         "label": "Dr. C.B. Lumsden, Branch No. 74",
         "heading": "About Us",
         "description": "Remember Them <br> For we owe them a debt which cannot be repaid",
-        "ctas": [],
         "type": "text_block",
-        "align": "center",
         "cols": {
-          "num": "col-10_md-12",
+          "num": "col-5_sm-12",
+          "push_left": "off-1",
+          "push_right": ""
+        }
+      },
+      "col_2": {
+        "class": "hero-image",
+        "src": "/images/poppy-flower.svg", 
+        "type": "image_block",
+        "cols": {
+          "num": "col-6_sm-hidden",
           "push_left": "",
           "push_right": ""
         }
       }
     },
     "section_basic_section_2": {
+      "slug": "history",
       "id": "history",
       "grid": [
         "middle",
@@ -64,6 +73,7 @@
       }
     },
     "section_basic_section_3": {
+      "slug": "executive-board",
       "id": "execs",
       "grid": [
         "middle",
@@ -136,6 +146,7 @@
       }
     },
     "section_basic_section_4": {
+      "slug": "committee-chairs",
       "id": "committee",
       "grid": [
         "middle",
@@ -202,6 +213,7 @@
       }
     },
     "section_basic_section_5": {
+      "slug": "newsletter",
       "id": "newsletter",
       "grid": [
         "middle",
