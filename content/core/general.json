@@ -60,12 +60,12 @@
       {
         "type": "solid",
         "text": "Next Executive Meeting",
-        "url": "/"
+        "url": "/meeting-times.odt"
       },
       {
         "type": "solid",
         "text": "Next General Meeting",
-        "url": "/"
+        "url": "/meeting-times.odt"
       }
     ]
   },
