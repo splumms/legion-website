@@ -343,23 +343,31 @@ select {
 
 
 // ////////////////////////////////////////////////////////////////// Index Page
+.page-fundraising, .page-about {
+  .site-header {
+    background: rgb(255, 255, 255, 0.75) !important;
+  }
+}
+.page-index, .page-contact, .page-gallery, .page-events {
+  .site-header {
+    background: rgba(15, 78, 113, 0.75);
+  }
+}
+.page-rentals {
+  .site-header {
+    background: rgb(134, 10, 10, 0.75) !important;
+  }
+}
 .page-index {
-  // .site-header {
-  //   position: absolute;
-  //   top: 0;
-  //   padding: toRem(30) 4rem;
-  //   @include medium {
-  //     padding: toRem(30) 2rem;
-  //   }
-  // }
   .hero {
     position: relative;
     margin-bottom: 0;
     .hero-image {
       position: relative;
+      top: 0.5rem;
       right: 0;
       min-width: 55rem;
-      transform: scale(1.1);
+      transform: scale(1.025);
       @include small {
         right: unset;
         width: 100%;
@@ -386,6 +394,7 @@ select {
   .quote {
     position: relative;
     padding: 10rem 0;
+    margin-top: -1rem;
     &:before {
       content: '';
       width: 15.5rem;
@@ -427,6 +436,7 @@ select {
   }
 }
 .hero { 
+  margin-top: 93px;
   &.blue {
     .text-block {
       padding-top: 10rem;
@@ -451,5 +461,10 @@ select {
 .page-rentals {
   .rental-intro {
     margin-bottom: 2rem;
+  }
+}
+.error-page {
+  .sectional {
+    padding-top: 6rem;
   }
 }
