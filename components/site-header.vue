@@ -119,7 +119,9 @@ export default {
 
 <style lang="scss" scoped>
 .site-header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 50;
   padding: 1rem 4rem 0;
   @include medium {
@@ -171,17 +173,21 @@ export default {
     }
     .join {
       color: black;
+      &:hover {
+        font-weight: bold;
+      }
     }
   }
 
   .dropdown {
     position: relative;
+    transition: ease all 0.25s;
     &:hover {
       .dropdown-content {
         display: block;
       }
       .dropbtn {
-        color: #0F4E71;
+        font-weight: bold;
         transform: scale (1.2);
         &:after {
           transform: rotate(180deg);
@@ -194,7 +200,7 @@ export default {
   }
 
   .dropbtn {
-    transition: all ease 0.15s;
+    transition: all font-weight 0.15s;
     position: relative;
     color: black;
     &:after {
