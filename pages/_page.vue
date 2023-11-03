@@ -1,9 +1,9 @@
 <template>
   <div :class="[`page page-${$route.params.page}`]">
 
-    <SiteHeader />
-    <BlockBuilder :sections="sections" />
-    <SiteFooter />
+    <SiteHeader class="header"/>
+    <BlockBuilder class="blocks" :sections="sections" />
+    <SiteFooter class="footer"/>
 
   </div>
 </template>
@@ -57,3 +57,18 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.page {
+  position: relative;
+}
+.header, .blocks, .footer {
+  position: relative;
+}
+.blocks {
+  z-index: 10;
+}
+.footer {
+  z-index: 9;
+}
+</style>
