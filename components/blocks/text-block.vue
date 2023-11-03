@@ -103,6 +103,7 @@ export default {
   .label {
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: toRem(16);
   }
 }
 .list {
