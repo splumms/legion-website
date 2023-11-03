@@ -3,7 +3,7 @@
     <div class="scroll-banner">
 
     </div>
-    <div class="grid full">
+    <div class="grid full nav">
       <div class="col-8">
         <nav>
           <NuxtLink to="/" class="logo">
@@ -19,6 +19,7 @@
               <a href="/about#executive-board">Executive Board</a>
               <a href="/about#committee-chairs">Committee Chairs</a>
               <a href="/about#newsletters">Newsletters</a>
+              <a href="/gallery">Gallery</a>
             </div>
           </div>
           
@@ -37,9 +38,9 @@
               Fundraising
             </NuxtLink>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="/fundraising#how-to-donate">How to Donate</a>
+              <a href="/fundraising#who-can-donate">Who Can Donate</a>
+              <a href="/fundraising#sponsors">Sponors/Grants</a>
             </div>
           </div>
 
@@ -62,6 +63,9 @@
         </div>
       </div>
     </div>
+    <MobileNav
+      class="mobile-nav"
+      :items="mobileItems"></MobileNav>
   </header>
 </template>
 
@@ -69,13 +73,15 @@
 // ====================================================================== Import
 import { mapGetters, mapActions } from 'vuex'
 import SiteLogo from '@/components/svgs/logo'
+import MobileNav from '@/components/hamburger-nav.vue'
 
 // ====================================================================== Export
 export default {
   name: 'SiteHeader',
 
   components: {
-    SiteLogo
+    SiteLogo,
+    MobileNav
   },
 
   props: {
@@ -97,6 +103,9 @@ export default {
     }),
     headerData () {
       return this.header ? this.header : this.siteContent.general.header
+    },
+    mobileItems () {
+      return this.siteContent.general.header.mobile
     }
   },
 
@@ -110,13 +119,21 @@ export default {
 
 <style lang="scss" scoped>
 .site-header {
-  z-index: 10;
+  position: relative;
+  z-index: 50;
   padding: 1rem 4rem 0;
   @include medium {
     padding: 1rem 2rem 0;
   }
   .scroll-banner {
     background-color: $color_Secondary;
+  }
+  .mobile-nav {
+    z-index: 50;
+    display: none;
+    @include small {
+      display: block;
+    }
   }
   .grid {
     color: white;
@@ -134,6 +151,11 @@ export default {
     }
     a {
       line-height: 2.5;
+      &:hover {
+        &:before {
+          width: 0%;
+        }
+      }
     }
     .logo {
       width: toRem(60);
@@ -143,6 +165,9 @@ export default {
       position: absolute;
       right: 2rem;
       z-index: 13;
+      @include small {
+        display: none;
+      }
     }
     .join {
       color: black;
@@ -162,6 +187,9 @@ export default {
           transform: rotate(180deg);
         }
       }
+    }
+    @include small {
+      display: none;
     }
   }
 

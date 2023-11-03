@@ -23,6 +23,36 @@
         "type": "underline",
         "url": "https://au-nuxt-static.on.fleek.co"
       }
+    ],
+    "mobile": [
+      {
+        "url": "/about",
+        "text": "About"
+      },
+      {
+        "url": "/events",
+        "text": "Events"
+      },
+      {
+        "url": "/fundraising",
+        "text": "Fundraising"
+      },
+      {
+        "url": "/contact",
+        "text": "Contact"
+      },
+      {
+        "url": "/rentals",
+        "text": "Rentals"
+      },
+      {
+        "url": "/gallery",
+        "text": "Gallery"
+      },
+      {
+        "url": "/join",
+        "text": "Join"
+      }
     ]
   },
   "footer": {
