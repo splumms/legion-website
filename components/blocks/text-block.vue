@@ -21,8 +21,9 @@
         <ul>
           <li 
             v-for="(item, index) in block.list.items"
-            :key="index"
-            v-html="item">
+            :key="index">
+            <a v-if="item.url" :href="item.url" target="_blank" v-html="item.text"></a>
+            <span v-else>{{ item.text }}</span>
           </li>
         </ul>
       </div>

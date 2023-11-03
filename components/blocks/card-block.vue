@@ -1,5 +1,8 @@
 <template>
-  <div class="card-wrapper">
+  <component
+    :is="block.tag"
+    :href="block.url"
+    class="card-wrapper">
     <div
       class="block card-block">
 
@@ -18,7 +21,7 @@
       </div>
 
     </div>
-  </div>
+  </component>
 </template>
 
 <script>
@@ -54,6 +57,21 @@ export default {
 <style lang="scss" scoped>
 .card-wrapper {
   margin-bottom: 2rem;
+  height: 100%;
+  &:hover {
+    .card-block {
+      box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.5);
+
+    }
+  }
+}
+a {
+  color: black;
+  &:hover {
+    &:before {
+      width: 0;
+    }
+  }
 }
 .card-block {
   background-color: white;
@@ -61,6 +79,7 @@ export default {
   box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
   padding: 2rem 3.25rem;
   height: 100%;
+  transition: ease all 0.25s;
 }
 .heading {
   padding-bottom: 1rem;
