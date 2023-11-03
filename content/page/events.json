@@ -19,7 +19,7 @@
       "col_1": {
         "label": "Dr. C.B. Lumsden, Branch No. 74",
         "heading": "Events",
-        "description": "Come say hi!",
+        "description": "Bar is Open:<br>Thursday and Friday 3:00 pm-10:00 pm<br>Saturday 3:00 pm-6:00pm",
         "ctas": [],
         "type": "text_block",
         "align": "center",
@@ -48,86 +48,11 @@
         }
       },
       "col_2": {
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/",
         "heading": "Coffee Break",
         "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
-        "type": "card_block",
-        "cols": {
-          "num": "col-6_mi-12",
-          "push_left": "",
-          "push_right": ""
-        }
-      },
-      "col_3": {
-        "heading": "Karaoke",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
-        "type": "card_block",
-        "cols": {
-          "num": "col-6_mi-12",
-          "push_left": "",
-          "push_right": ""
-        }
-      },
-      "col_4": {
-        "heading": "Coffee Break",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
-        "type": "card_block",
-        "cols": {
-          "num": "col-6_mi-12",
-          "push_left": "",
-          "push_right": ""
-        }
-      },
-      "col_5": {
-        "heading": "Karaoke",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
-        "type": "card_block",
-        "cols": {
-          "num": "col-6_mi-12",
-          "push_left": "",
-          "push_right": ""
-        }
-      },
-      "col_6": {
-        "heading": "Coffee Break",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
-        "type": "card_block",
-        "cols": {
-          "num": "col-6_mi-12",
-          "push_left": "",
-          "push_right": ""
-        }
-      },
-      "col_7": {
-        "heading": "Karaoke",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
-        "type": "card_block",
-        "cols": {
-          "num": "col-6_mi-12",
-          "push_left": "",
-          "push_right": ""
-        }
-      },
-      "col_8": {
-        "heading": "Coffee Break",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
-        "type": "card_block",
-        "cols": {
-          "num": "col-6_mi-12",
-          "push_left": "",
-          "push_right": ""
-        }
-      },
-      "col_9": {
-        "heading": "Karaoke",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "when": "<strong>When:</strong> Sept-Dec Wednesday 9:30am - 11:30am",
         "type": "card_block",
         "cols": {
           "num": "col-6_mi-12",
@@ -145,8 +70,7 @@
         "equalHeight"
       ],
       "col_1": {
-        "label": "Regularly Scheduled Events",
-        "description": "", 
+        "label": "Regularaly Scheduled Events",
         "type": "text_block",
         "cols": {
           "num": "col-12",
@@ -155,9 +79,11 @@
         }
       },
       "col_2": {
-        "heading": "Coffee Break",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/",
+        "heading": "Crib Tournament",
+        "where": "<strong>Where:</strong>Wolfville Legion",
+        "when": "<strong>When:</strong>3rd Saturday of Each Month",
         "type": "card_block",
         "cols": {
           "num": "col-6_mi-12",
@@ -166,9 +92,11 @@
         }
       },
       "col_3": {
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/",
         "heading": "Karaoke",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "where": "<strong>Where:</strong> Wolfville Legion",
+        "when": "<strong>When:</strong> Thursdays 7:30pm",
         "type": "card_block",
         "cols": {
           "num": "col-6_mi-12",
@@ -177,9 +105,11 @@
         }
       },
       "col_4": {
-        "heading": "Coffee Break",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/",
+        "heading": "Big Breakfast - $8.00",
+        "where": "<strong>Where:</strong> Wolfville Legion",
+        "when": "<strong>When:</strong> Saturday March 21st 8:00am - 10:00am",
         "type": "card_block",
         "cols": {
           "num": "col-6_mi-12",
@@ -188,9 +118,11 @@
         }
       },
       "col_5": {
-        "heading": "Karaoke",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/",
+        "heading": "Spaghetter Supper",
+        "where": "<strong>Where:</strong> Wolfville Legion",
+        "when": "<strong>When:</strong>Friday 6:00pm",
         "type": "card_block",
         "cols": {
           "num": "col-6_mi-12",
@@ -199,9 +131,11 @@
         }
       },
       "col_6": {
-        "heading": "Coffee Break",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/",
+        "heading": "Friday Live Music",
+        "where": "<strong>Where:</strong> Wolfville Legion",
+        "when": "<strong>When:</strong> Every Friday Night 7:00pm",
         "type": "card_block",
         "cols": {
           "num": "col-6_mi-12",
@@ -210,9 +144,11 @@
         }
       },
       "col_7": {
-        "heading": "Karaoke",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/",
+        "heading": "45's Cards",
+        "where": "<strong>Where:</strong>Wolfville Legion",
+        "when": "<strong>When:</strong>Tuesdays 7:00pm",
         "type": "card_block",
         "cols": {
           "num": "col-6_mi-12",
@@ -221,9 +157,11 @@
         }
       },
       "col_8": {
-        "heading": "Coffee Break",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/",
+        "heading": "Darts",
+        "where": "<strong>Where:</strong>Wolfville Legion",
+        "when": "<strong>When:</strong>Thursdays 7:00pm",
         "type": "card_block",
         "cols": {
           "num": "col-6_mi-12",
@@ -232,9 +170,11 @@
         }
       },
       "col_9": {
-        "heading": "Karaoke",
-        "where": "<strong>Where:</strong> White Rock Hall",
-        "when": "<strong>When:</strong> Sept-Dec Wednesday 8:30 - 11:30pm",
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/",
+        "heading": "Trivia",
+        "where": "<strong>Where:</strong>Wolfville Legion",
+        "when": "<strong>When:</strong>4th Saturday of Each Month",
         "type": "card_block",
         "cols": {
           "num": "col-6_mi-12",
