@@ -7,6 +7,7 @@ import Settings from '@/content/config/settings.json'
 // -----------------------------------------------------------------------------
 const state = () => ({
   siteContent: {},
+  modal: false,
   navigationOpen: false,
   page404: false
 })
@@ -15,6 +16,7 @@ const state = () => ({
 // -----------------------------------------------------------------------------
 const getters = {
   siteContent: state => state.siteContent,
+  modal: state => state.modal,
   navigationOpen: state => state.navigationOpen,
   page404: state => state.page404
 }
@@ -43,6 +45,10 @@ const actions = {
   setSiteContent ({ commit }, payload) {
     commit('SET_SITE_CONTENT', payload)
   },
+  // ////////////////////////////////////////////////////////////////// setModal
+  setModal ({ commit }, payload) {
+    commit('SET_MODAL', payload)
+  },
   // ///////////////////////////////////////////////////////// setNavigationOpen
   setNavigationOpen ({ commit }, toggle) {
     commit('SET_NAVIGATION_OPEN', toggle)
@@ -61,6 +67,9 @@ const mutations = {
   },
   SET_SITE_CONTENT (state, payload) {
     state.siteContent[payload.key] = payload.data
+  },
+  SET_MODAL (state, payload) {
+    state.modal = payload
   },
   SET_NAVIGATION_OPEN (state, toggle) {
     state.navigationOpen = toggle
