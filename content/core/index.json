@@ -86,10 +86,10 @@
         "list": {
           "heading": "We provide",
           "items": [
-            "Financial Assistance",
-            "Counselling and Medical Equipment",
-            "Bursaries to graduating high school students",
-            "A sense of community"
+            {"text": "Financial Assistance"},
+            {"text": "Counselling and Medical Equipment"},
+            {"text": "Bursaries to graduating high school students"},
+            {"text": "A sense of community"}
           ]
         },
         "ctas": [
@@ -124,6 +124,7 @@
         }
       },
       "col_2": {
+        "tag": "div",
         "heading": "Coffee Break",
         "description": "Bottomless cup of coffee or tea, sweet treats and a warm welcome.",
         "where": "<strong>Where:</strong> White Rock Hall",
@@ -136,6 +137,7 @@
         }
       },
       "col_3": {
+        "tag": "div",
         "heading": "Karaoke",
         "description": "You sing in the shower, You sing in the car.  Sing with us and become a STAR!",
         "where": "<strong>Where:</strong> White Rock Hall",

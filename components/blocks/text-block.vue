@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="list-wrapepr">
+    <div class="list-wrapper">
       <div v-if="block.list" class="list">
         <h4 v-if="block.list.heading" v-html="block.list.heading"></h4>
         <ul>
@@ -23,7 +23,7 @@
             v-for="(item, index) in block.list.items"
             :key="index">
             <a v-if="item.url" :href="item.url" target="_blank" v-html="item.text"></a>
-            <span v-else>{{ item.text }}</span>
+            <span v-else v-html="item.text"></span>
           </li>
         </ul>
       </div>
