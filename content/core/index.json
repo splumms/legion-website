@@ -24,7 +24,7 @@
           {
             "type": "solid",
             "text": "Donate",
-            "url": "/"
+            "url": "https://www.gofundme.com/f/the-roger-prentice-library-fund"
           }
         ],
         "type": "text_block",
@@ -96,7 +96,7 @@
           {
             "type": "solid",
             "text": "Join Us",
-            "url": "/"
+            "url": "/join"
           }
         ],
         "type": "text_block",
@@ -124,7 +124,9 @@
         }
       },
       "col_2": {
-        "tag": "div",
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/events",
+        "target": "_blank",
         "heading": "Coffee Break",
         "description": "Bottomless cup of coffee or tea, sweet treats and a warm welcome.",
         "where": "<strong>Where:</strong> White Rock Hall",
@@ -137,7 +139,9 @@
         }
       },
       "col_3": {
-        "tag": "div",
+        "tag": "a",
+        "url": "https://www.facebook.com/WolfvilleLegion/events",
+        "target": "_blank",
         "heading": "Karaoke",
         "description": "You sing in the shower, You sing in the car.  Sing with us and become a STAR!",
         "where": "<strong>Where:</strong> White Rock Hall",

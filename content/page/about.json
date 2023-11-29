@@ -227,55 +227,68 @@
           "items": [
             {
               "url": "/legion-quarterly-vol-1-issue-1-april-2023.pdf",
-              "text": "Legion Quarterly April 2023"
+              "text": "Legion Quarterly April 2023",
+              "target": "_blank"
             },
             {
               "url": "/legion-newsletter-june-2021.pdf",
-              "text": "Newsletter June 2021"
+              "text": "Newsletter June 2021",
+              "target": "_blank"
             },
             {
               "url": "/legion-newsletter-december-2020.pdf",
-              "text": "Newsletter Decemer 2020"
+              "text": "Newsletter Decemer 2020",
+              "target": "_blank"
             },
             {
               "url": "/legion-newsletter-june-2020.pdf",
-              "text": "Newsletter June 2020"
+              "text": "Newsletter June 2020",
+              "target": "_blank"
             },
             {
               "url": "/legion-newsletter-december-2018.pdf",
-              "text": "Newsletter December 2018"
+              "text": "Newsletter December 2018",
+              "target": "_blank"
             },
             {
               "url": "/garden-party-release.odt",
-              "text": "Garden Party Release"
+              "text": "Garden Party Release",
+              "target": "_blank"
             },
             {
               "url": "https://www.saltwire.com/nova-scotia/communities/annapolis-valley/return-to-traditional-remembrance-day-services-draws-crowd-in-wolfville-100656930/?utm_medium=Social&utm_source=Facebook&fbclid=IwAR34EJFOwGeG5ABCg3RZ-DODde_7RPWsWJjr8sH5CS_vptvdcLSqpntYBJo#Echobox=1636665363",
-              "text": "Saltwire Coverage of Return to Traditional Remembrance Day Ceremony in Wolfville"
+              "text": "Saltwire Coverage of Return to Traditional Remembrance Day Ceremony in Wolfville",
+              "target": "_blank"
             },
             {
               "url": "https://saltwire.pressreader.com/the-valley-wire-9ylv",
-              "text": "Saltwire E Edition 10 Nov 2021 Hubert Sullivan 1st Poppy & Barb Larkin Mitten Donation"
+              "text": "Saltwire E Edition 10 Nov 2021 Hubert Sullivan 1st Poppy & Barb Larkin Mitten Donation",
+              "target": "_blank"
             },
             {
               "url": "https://atlantic.ctvnews.ca/royal-canadian-legion-in-wolfville-n-s-announces-record-sales-in-poppy-campaign-1.5189807",
-              "text": "CTV News-Successful 2020 Poppy Campaign (15 Nov 2020)"
+              "text": "CTV News-Successful 2020 Poppy Campaign (15 Nov 2020)",
+              "target": "_blank"
             },
             {
               "url": "https://atlantic.ctvnews.ca/video?clipId=2074307",
-              "text": "CTV Morning Live Atlantic-Interview of Paul Murphy 11 Nov 2020"
+              "text": "CTV Morning Live Atlantic-Interview of Paul Murphy 11 Nov 2020",
+              "target": "_blank"
             },
             {
               "url": "https://www.youtube.com/embed/QpO_J21YiBk",
-              "text": "Taped Remembrance Day Ceremony 11 Nov 2020"
+              "text": "Taped Remembrance Day Ceremony 11 Nov 2020",
+              "target": "_blank"
             },
             {
               "url": "https://www.cbc.ca/news/canada/nova-scotia/royal-canadian-legion-wolfville-nova-scotia-growing-1.5785689?fbclid=IwAR12bqdVp4prA4nPbH5YI_JxrPDn7zQswp6wQNzPL9abpB7wCJ_ZAMQ5JQ4",
-              "text": "CBC News-Interviews Michael Bawtree Wolfville Legion Grows Despite COVID-19 (1 Nov 2020)"
+              "text": "CBC News-Interviews Michael Bawtree Wolfville Legion Grows Despite COVID-19 (1 Nov 2020)",
+              "target": "_blank"
             },
             {
               "url": "https://www.saltwire.com/lifestyles/regional-lifestyles/meet-your-neighbour-murphy-puts-love-of-volunteering-to-work-helping-wolfville-legion-512271/?utm_medium=Social&utm_source=Facebook&fbclid=IwAR3O812MS86Ua6PTCC3i0mAsaQhWc2x6egzJFI2CO2D890lrGVLP-o4iAU8",
-              "text": "Saltwire.com-Interview Meet Your Neighbour Paul Murphy (24 Oct 2020)"
+              "text": "Saltwire.com-Interview Meet Your Neighbour Paul Murphy (24 Oct 2020)",
+              "target": "_blank"
             }
           ]
         },

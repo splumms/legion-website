@@ -2,6 +2,7 @@
   <component
     :is="block.tag"
     :href="block.url"
+    :target="block.target"
     class="card-wrapper">
     <div
       class="block card-block">
