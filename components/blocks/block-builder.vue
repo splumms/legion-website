@@ -65,6 +65,7 @@
 <script>
 import GalleryBlock from '@/components/blocks/gallery-block'
 import SliderBlock from '@/components/blocks/slider-block'
+import SliderBlock2 from '@/components/blocks/slider-block-2'
 import RentalsFormBlock from '@/components/blocks/rentals-form-block'
 import FormBlock from '@/components/blocks/form-block'
 import TeamBlock from '@/components/blocks/team-block'
@@ -80,6 +81,7 @@ export default {
   components: {
     GalleryBlock,
     SliderBlock,
+    SliderBlock2,
     RentalsFormBlock,
     FormBlock,
     TeamBlock,
@@ -120,6 +122,7 @@ export default {
       switch (type) {
         case 'gallery_block': name = 'GalleryBlock'; break
         case 'slider_block' : name = 'SliderBlock'; break
+        case 'slider_block_2' : name = 'SliderBlock2'; break
         case 'rentals_form_block' : name = 'RentalsFormBlock'; break
         case 'form_block' : name = 'FormBlock'; break
         case 'team_block' : name = 'TeamBlock'; break

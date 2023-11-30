@@ -110,9 +110,6 @@
       ],
       "col_1": {
         "heading": "Current Renovation Sponsors",
-        "icon": "",
-        "sponsor": "FCC AGRISPIRIT FUND",
-        "description": "New Kitchen",
         "type": "slider_block",
         "cols": {
           "num": "col-12_sm-10",
@@ -122,10 +119,7 @@
       },
       "col_2": {
         "heading": "Past Renovation Sponsors",
-        "icon": "",
-        "sponsor": "FCC AGRISPIRIT FUND",
-        "description": "New Kitchen",
-        "type": "slider_block",
+        "type": "slider_block_2",
         "cols": {
           "num": "col-12_sm-10",
           "push_left": "off-0_sm-1",
